@@ -24,7 +24,7 @@
     },"correctAnswer": "d"
   },
   {
-    "question": "What will be the value of the following Python expression?4 + 3 % 5",
+    "question": "What will be the value of the following Python expression? 4 + 3 % 5",
     "answers": {"a": 7,
     "b": 2,
     "c": 4,
@@ -38,14 +38,6 @@
     "c": "Brackets",
     "d": "All of the mentioned",
     },"correctAnswer": "a"
-  },
-  {
-    "question": "What will be the output of the following Python code?(i = 1while True:if i%3 == 0:breakprint(i)i + = 1=",
-    "answers": {"a": "1 2 3",
-    "b": "error",
-    "c": "1 2",
-    "d": "None of these",
-    },"correctAnswer": "b"
   },
   {
     "question": "Python supports the creation of anonymous functions at runtime using a construct called _____",
