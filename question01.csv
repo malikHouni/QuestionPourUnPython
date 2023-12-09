@@ -1,0 +1,10 @@
+question,a,b,c,d,CorrectAnswer
+Which type of programming does Python support?, Object-oriented programming , structure programming, functional programming , all of the mentioned, d
+Is Python case sensitive when dealing with identifiers?, no , yes , Machine dependent , None of the mentioned, b
+All keywords in Python are in ________, Capitalized , lower case, UPPER CASE , None of the mentioned, d
+What will be the value of the following Python expression?4 + 3 % 5, 7, 2, 4, 1, a
+Which of the following is used to define a block of code in Python language?, Indentation, Key, Brackets, All of the mentioned, a
+What will be the output of the following Python code?(i = 1while True:if i%3 == 0:breakprint(i)i + = 1=, 1 2 3 , error , 1 2 , None of these, b
+Python supports the creation of anonymous functions at runtime using a construct called ____, pi, anonymous, lambda, none of the mentioned, c
+What is the order of precedence in python?, Exponential, Parentheses, Multiplication, Division, Addition, Subtraction, Exponential, Parentheses, Division, Multiplication, Addition, Subtraction, Parentheses, Exponential, Multiplication, Division, Subtraction, Addition, Parentheses, Exponential, Multiplication, Division, Addition, Subtraction, d
+What will be the output of the following Python code snipped if x=1 ?X<<2, 4, 2, 1, 8, a

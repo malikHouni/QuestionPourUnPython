@@ -1,0 +1,74 @@
+[
+  {
+    "question": "Which type of programming does Python support?",
+    "answers": {"a": "Object-oriented programming",
+    "b": "structure programming",
+    "c": "functional programming",
+    "d": "all of the mentioned",
+    },"correctAnswer": "d"
+  },
+  {
+    "question": "Is Python case sensitive when dealing with identifiers?",
+    "answers": {"a": "no",
+    "b": "yes",
+    "c": "Machine dependent",
+    "d": "None of the mentioned",
+    },"correctAnswer": "b"
+  },
+  {
+    "question": "All keywords in Python are in ________",
+    "answers": {"a": "Capitalized",
+    "b": "lower case",
+    "c": "UPPER CASE",
+    "d": "None of the mentioned",
+    },"correctAnswer": "d"
+  },
+  {
+    "question": "What will be the value of the following Python expression?4 + 3 % 5",
+    "answers": {"a": 7,
+    "b": 2,
+    "c": 4,
+    "d": 1,
+    },"correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following is used to define a block of code in Python language?",
+    "answers": {"a": "Indentation",
+    "b": "Key",
+    "c": "Brackets",
+    "d": "All of the mentioned",
+    },"correctAnswer": "a"
+  },
+  {
+    "question": "What will be the output of the following Python code?(i = 1while True:if i%3 == 0:breakprint(i)i + = 1=",
+    "answers": {"a": "1 2 3",
+    "b": "error",
+    "c": "1 2",
+    "d": "None of these",
+    },"correctAnswer": "b"
+  },
+  {
+    "question": "Python supports the creation of anonymous functions at runtime using a construct called _____",
+    "answers": {"a": "pi",
+    "b": "anonymous",
+    "c": "lambda",
+    "d": "none of the mentioned",
+    },"correctAnswer": "c"
+  },
+  {
+    "question": "What is the order of precedence in python?",
+    "answers": {"a": "Exponential",
+    "b": "Parentheses",
+    "c": "Multiplication",
+    "d": "Division",
+    },"correctAnswer": "Addition"
+  },
+  {
+    "question": "What will be the output of the following Python code snipped if x=1 ?X<<2",
+    "answers": {"a": 4,
+    "b": 2,
+    "c": 1,
+    "d": 8,
+    },"correctAnswer": "a"
+  }
+]

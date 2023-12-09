@@ -1,0 +1,16 @@
+{
+  "short_name": "Question pour un Python",
+  "name": "Question pour un Python",
+  "description": "Quiz Python",
+  "icons": [
+    {
+      "src":"./img/TitleLogo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "index.html",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FFFFFF",
+  "display": "standalone"
+}
