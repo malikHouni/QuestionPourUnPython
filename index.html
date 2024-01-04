@@ -121,10 +121,11 @@ button:hover{
 <div id="MainApp" style="display:none;">
 
 <div id="Menu" style="display:block;">
-  <img src="./img/TitleLogo.png" class="" style="width:100%;height:20em;margin-bottom: 0;">
-  <img src="./img/animQuestionTransp.gif" class="" style="width:150%;height:10em;margin:-5em 0 0 -5em;">
-  <button id="MenuPlay" style="margin:0.2em 0 0 0;">Play</button>
-  <p>2023 - Project Pandora</p>
+  <img src="./img/TitleLogo.png" class="" style="width:100%;height:8em;margin-bottom: 0.5em;">
+  <img src="./img/animQuestionTransp.gif" class="" style="width:150%;height:20em;margin:-2em 0 0em -5em;object-fit: cover; object-position: 0% 60%;">
+  <button id="MenuPlay" style="margin:-1em 0 0.5em 0;">Play</button><br>
+  <p style="display:inline;">2023 - Project Pandora</p>
+  <button id="installBtn" onclick="instalar()" disabled style="clear:both;display:inline;width:auto;height:auto;background-color: #f44336;margin:0 0 0 1em;padding:0;text-align:center;font-size: 1em;"> Install app </button>
 </div>
 <div id="Game" style="display:none;">
 <img src="./img/TitleLogo.png" class="object" style="width:10em;height:5em;">
@@ -335,6 +336,8 @@ button:hover{
     document.getElementById('Game').style.display = "block";
   });
 })();
+
+/****/
 let details = navigator.userAgent,
     regexp = /android|iphone|kindle|ipad/i,
     isMobileDevice = regexp.test(details);
@@ -342,6 +345,27 @@ isMobileDevice
     ? (console.log("You are using a Mobile Device"), document.getElementById('MainApp').style.display = "block")
     : (console.log("You are using Desktop"),
       (document.querySelector("body").innerHTML = '<br /><p style="font-size:2em;">This application is for mobile use only! Please switch to a mobile device.</p><br /><img src="./img/TitleLogo.png" style="wdth:8em;height:8em;"/>'));
+/****/
+
+/** This code works only on properly formatted PWAs, source:https://www.modyo.com/developer-tips/display-a-prompt-to-install-pwas **/
+
+var beforeInstallPrompt = null;
+
+window.addEventListener("beforeinstallprompt", eventHandler, errorHandler);
+
+function eventHandler(event) {
+  beforeInstallPrompt = event;
+  document.getElementById("installBtn").removeAttribute("disabled");
+}
+
+function errorHandler(event) {
+  console.log("error: " + event);
+}
+
+function instalar() {
+  if (beforeInstallPrompt) beforeInstallPrompt.prompt();
+}
+
 
 </script>
 </body>
